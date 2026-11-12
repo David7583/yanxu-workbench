@@ -1,0 +1,23 @@
+# Template for the future application; not yet consumed by a running UI.
+# Relative paths are resolved from the workspace root.
+[storage]
+projects_dir = "data/projects"
+library_dir = "data/library"
+exports_dir = "exports"
+state_dir = ".state"
+
+[ai]
+# Store key references here; actual keys belong in the OS credential store.
+provider = ""
+base_url = ""
+model = ""
+credential_name = "paper-workbench/default"
+
+[research]
+language = "zh-CN"
+verify_references = true
+
+[execution]
+# Future app must refuse agent code execution until a real sandbox passes verification.
+agent_code_execution_enabled = false
+sandbox_backend = "none"

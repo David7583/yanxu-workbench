@@ -1,0 +1,29 @@
+[project]
+name = "paper-workbench"
+version = "0.3.0"
+description = "Local foundation for a research and paper-writing workbench"
+license = "Apache-2.0"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "citeproc-py>=0.12.2",
+    "fastapi>=0.162.5",
+    "httpx>=0.28.1",
+    "ijson>=3.6.0",
+    "keyring>=25.7.0",
+    "pytest>=9.2.0",
+    "python-docx>=1.2.0",
+    "pypdf>=6.0.0",
+    "python-multipart>=0.0.33",
+    "reportlab>=5.1.0",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[tool.uv]
+package = false
+python-preference = "only-managed"
+cache-dir = ".cache/uv"
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100

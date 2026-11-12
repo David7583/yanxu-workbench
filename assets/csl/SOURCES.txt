@@ -1,0 +1,13 @@
+Citation styles from https://github.com/citation-style-language/styles
+Downloaded 2026-11-12. Original authors, exact titles, source links, license and update
+dates are preserved in each unmodified CSL file's <info> element.
+
+apa.csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+ieee.csl: https://raw.githubusercontent.com/citation-style-language/styles/master/ieee.csl
+gbt.csl: https://raw.githubusercontent.com/citation-style-language/styles/master/china-national-standard-gb-t-7714-2015-numeric.csl
+
+These styles are distributed under Creative Commons Attribution-ShareAlike 3.0
+Unported: https://creativecommons.org/licenses/by-sa/3.0/
+The upstream style files are not modified. The application uses citeproc-py to
+render citations and bibliography; individual styles may have processor-specific
+limitations. Authors retain their rights under the license linked in each file.
